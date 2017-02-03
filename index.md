@@ -2,7 +2,7 @@
 layout: default
 ---
 
-- http://fraternalilab.kcl.ac.uk/PinSnps/
-- http://mabra.biomed.kcl.ac.uk/
-- https://mathbio.crick.ac.uk/wiki/POPS
-- https://mathbio.crick.ac.uk/wiki/POPSCOMP
+- PinSnps (http://fraternalilab.kcl.ac.uk/PinSnps/)
+- MABRA (http://mabra.biomed.kcl.ac.uk/)
+- POPS (https://mathbio.crick.ac.uk/wiki/POPS)
+- POPSCOMP (https://mathbio.crick.ac.uk/wiki/POPSCOMP)
