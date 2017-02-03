@@ -2,9 +2,11 @@
 layout: default
 ---
 
-= Fraternalilab =
+Fraternalilab
+=============
 
-== Servers ==
+Servers
+-------
 - PinSnps <http://fraternalilab.kcl.ac.uk/PinSnps/>
 - MABRA <http://mabra.biomed.kcl.ac.uk/>
 - POPS <https://mathbio.crick.ac.uk/wiki/POPS>
