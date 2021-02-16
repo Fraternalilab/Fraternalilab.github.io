@@ -20,5 +20,5 @@ Please cite:
 Marzuoli I, Margreitter C, Fraternali F. (2019). **Lipid Head Group Parameterization for GROMOS 54A8: A Consistent Approach with Protein Force Field Description.** *J Chem Theory Comput*, 15(10):5175-5193. doi: 10.1021/acs.jctc.9b00509.
 
 The resulting parameters and topology files can be found here.
-* [Biomembrane simulations - parameters](/assets/downloads/gromos54a8ff_v1.zip) (*updated 08-Jul-2020*)
+* [Biomembrane simulations - parameters](/assets/downloads/gromos54a8.ff_v1.zip) (*updated 08-Jul-2020*)
 * [Biomembrane simulations - topologies](/assets/downloads/topologies.zip)
