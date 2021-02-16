@@ -27,7 +27,7 @@ Note that since third-party plugins were used (for twitter feed) github-pages ca
 1. Build the website in production mode under the docker set up:
 
 ```
-docker run --rm -it --volume="$PWD:/srv/jekyll" --volume="$PWD:/usr/src/app" --env JEKYLL_ENV=production jekyll/jekyll:3.8 jekyll buil
+docker run --rm -it --volume="$PWD:/srv/jekyll" --volume="$PWD:/usr/src/app" --env JEKYLL_ENV=production jekyll/jekyll:3.8 jekyll build
 ```
 
 This will update files in the `_site` directory.
