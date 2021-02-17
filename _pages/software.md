@@ -19,7 +19,7 @@ Lipid parameters for Molecular Dynamics simulations of biomembrane have been upd
 
 **[UNIPPIN](/unippin/)**
 
-[![image-center](/assets/images/UNIPPINLogo-1.png ){: .align-center}](/UNIPPIN/)
+[![image-center](/assets/images/UNIPPINLogo-1.png ){: .align-center}](/unippin/)
 
 [UNIPPIN](/unippin/) is an integrated protein-protein interaction network the group has been collecting and curating for our analyses on protein-protein interactions. Find out more [here](/unippin/).
 
