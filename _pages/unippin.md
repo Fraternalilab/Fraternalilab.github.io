@@ -8,7 +8,7 @@ defaults:
       author_profile: true
 layout: single
 title: "UNIPPIN"
-permalink: /UNIPPIN/
+permalink: /unippin/
 ---
 
 **UNIPPIN: An integrated human protein-protein interaction network**

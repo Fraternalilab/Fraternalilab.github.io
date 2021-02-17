@@ -17,11 +17,11 @@ permalink: /software/
 
 Lipid parameters for Molecular Dynamics simulations of biomembrane have been updated to the most recent version of the GROMOS 54a8 force field to improve solvation properties in the head region. The resulting parameters and topology files can be found [here](/biomembrane-simulations/). 
 
-**[UNIPPIN](/UNIPPIN/)**
+**[UNIPPIN](/unippin/)**
 
 [![image-center](/assets/images/UNIPPINLogo-1.png ){: .align-center}](/UNIPPIN/)
 
-[UNIPPIN](/UNIPPIN/) is an integrated protein-protein interaction network the group has been collecting and curating for our analyses on protein-protein interactions. Find out more [here](/UNIPPIN/).
+[UNIPPIN](/unippin/) is an integrated protein-protein interaction network the group has been collecting and curating for our analyses on protein-protein interactions. Find out more [here](/unippin/).
 
 **[BRepertoire](http://mabra.biomed.kcl.ac.uk/BRepertoire/)**
 
