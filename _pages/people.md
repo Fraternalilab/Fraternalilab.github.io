@@ -34,6 +34,10 @@ feature_row:
     title: "Julian Herrera Braga"
     url: /people/julian-herrera-braga
     excerpt: "PhD Student"
+  - image_path: /assets/images/people/shohei.jpg
+    title: "Shohei Yoshida"
+    url: /people/shohei-yoshida
+    excerpt: "PhD Student"
   - image_path: /assets/images/people/sofia_fredin.jpg
     title: "Sofia Fredin"
     url: /people/sofia-fredin
