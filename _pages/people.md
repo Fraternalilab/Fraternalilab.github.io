@@ -22,6 +22,22 @@ feature_row:
     title: "Timir Weston"
     url: /people/timir-weston
     excerpt: "PhD Student"
+  - image_path: /assets/images/people/neba.jpg
+    title: "Neba Nebangwa Derrick"
+    url: /people/neba-derrick
+    excerpt: "PhD Student"
+  - image_path: /assets/images/people/dongjun.jpg
+    title: "Dongjun Guo"
+    url: /people/dongjun-guo
+    excerpt: "PhD Student"
+  - image_path: /assets/images/people/julian_photo_group_website.png
+    title: "Julian Herrera Braga"
+    url: /people/julian-herrera-braga
+    excerpt: "PhD Student"
+  - image_path: /assets/images/people/sofia_fredin.jpg
+    title: "Sofia Fredin"
+    url: /people/sofia-fredin
+    excerpt: "Erasmus Student"
 ---
 
 ![image-center](/assets/images/FFgroup_picture_Jan2021.png ){: .align-center}
@@ -36,7 +52,7 @@ feature_row:
 * Nathan Peeler (MSci Chemistry)
 * Marija Dimitrievska (BSc Molecular Genetics)
 * Emily (Man-I) Che (BSc Biochemistry)
-* Sofia Fredin (Erasmus)
+* Sofia Fredin (Erasmus Student)
 
 **Alumni**:
 
