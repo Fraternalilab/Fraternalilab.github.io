@@ -7,8 +7,8 @@ defaults:
     values:
       author_profile: true
 layout: single
-title: "Julian Herrara Braga"
-permalink: /people/julian-herrara-braga
+title: "Julian Herrera Braga"
+permalink: /people/julian-herrera-braga
 ---
 
 E-mail: julian [dot] herrera_braga [at] kcl [dot] ac [dot] uk
