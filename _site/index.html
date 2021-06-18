@@ -316,13 +316,15 @@
         
           <input class="carousel__activator" type="radio" name="carousel" id="f"  />
         
+          <input class="carousel__activator" type="radio" name="carousel" id="g"  />
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="f"></label>
+              <label class="carousel__control carousel__control--backward" for="g"></label>
               <label class="carousel__control carousel__control--forward" for="b"></label>
           </div>
         
@@ -368,6 +370,15 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="e"></label>
+              <label class="carousel__control carousel__control--forward" for="g"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="f"></label>
               <label class="carousel__control carousel__control--forward" for="a"></label>
           </div>
         
@@ -376,6 +387,10 @@
             
             <li class="carousel__slide" style="background-image: url('/assets/images/slider/FF_webpage_header_v3_redlogo.png');"></li>
             
+            <li class="carousel__slide" style="background-image: url('/assets/images/slider/Irene_Nanoscale_capsule.png');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/assets/images/slider/zoomvar.png');"></li>
+            
             <li class="carousel__slide" style="background-image: url('/assets/images/jamie_elife_assembled.png');"></li>
             
             <li class="carousel__slide" style="background-image: url('/assets/images/slider/BRepertoire_graphical_abstract.png');"></li>
@@ -383,8 +398,6 @@
             <li class="carousel__slide" style="background-image: url('/assets/images/slider/curropinimageForWeb2-e1519925322530.jpg');"></li>
             
             <li class="carousel__slide" style="background-image: url('/assets/images/slider/Screen-Shot-2017-07-04-at-19.40.03.png');"></li>
-            
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/PinSnps.png');"></li>
             
           </ul>
         </div>
@@ -401,6 +414,8 @@
               <label class="carousel__indicator" for="e"></label>
             
               <label class="carousel__indicator" for="f"></label>
+            
+              <label class="carousel__indicator" for="g"></label>
             
         </div>
     </div>
@@ -559,6 +574,29 @@
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(7):checked ~ .carousel__track {
+  -webkit-transform: translateX(-600%);
+          transform: translateX(-600%);
+}
+.carousel__activator:nth-of-type(7):checked ~ .carousel__slide:nth-of-type(7) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(7):checked ~ .carousel__controls:nth-of-type(7) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(7):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(7) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -658,6 +696,11 @@
           transform: translateX(500%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(7) {
+  -webkit-transform: translateX(600%);
+          transform: translateX(600%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -714,6 +757,12 @@
   background-position: center;
 }
 
+.carousel__slide:nth-of-type(7),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(7) {
+  background-size: cover;
+  background-position: center;
+}
+
 </style>
 
 <script>
@@ -762,6 +811,182 @@
 
 
 <div class="entries-grid">
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/slider/Irene-Naonoscale-capsule.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/irene-nanoscale/" rel="permalink">Antimcrobial nanocapsule design and dynamics published in the Nanoscale journal
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/slider/zoomvar.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zoomvar-published/" rel="permalink">ZoomVar variant database published in PLoS Biology
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/pure1.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/pure-published/" rel="permalink">scRNAseq analysis of peripheral B cell populations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/interface_crystal_screen.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/interfacescreen/" rel="permalink">Papers on screening protein-protein interaction inhibitor using crystal lattices
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
   
     
 
@@ -939,172 +1164,6 @@
 </div>
 
   
-    
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/rashaFF.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/rasha-mnd/" rel="permalink">Rasha’s project featured on MND materials
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Our post-doc Rasha’s work on analysing protein-protein interaction networks in the context of the gene C9orf72 affected in Amyotrophic lateral sclerosis (ALS...</p>
-  </article>
-</div>
-
-  
-    
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/new-publications/" rel="permalink">Some new publications from FFlab
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Some recent proud FFlab productions:
-</p>
-  </article>
-</div>
-
-  
-    
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/franca-head-randall/" rel="permalink">Franca appointed Head of Randall Centre
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Congratulations to Franca appointed to be the new Head of the Randall Centre of Cell and Molecular Biophysics (link to announcement), under the new School of...</p>
-  </article>
-</div>
-
-  
-    
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/Screen-Shot-2018-03-12-at-16.31.57.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/biodynamics/" rel="permalink">BioDynamics Conference on 12 &amp; 13 April 2018
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-  
 </div>
 
 
@@ -1129,12 +1188,19 @@
     
 
     
+      
+        
+        
+        
+        <li><a href="/page2/">2</a></li>
+      
+    
 
     
     
 
     
-      <li><a href="/page2/">2</a></li>
+      <li><a href="/page3/">3</a></li>
     
 
     

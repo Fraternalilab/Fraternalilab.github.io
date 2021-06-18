@@ -94,4 +94,28 @@ var store = [{
         "tags": [],
         "url": "/irene-times/",
         "teaser": "/assets/images/capsule.jpeg"
+      },{
+        "title": "Papers on screening protein-protein interaction inhibitor using crystal lattices",
+        "excerpt":"We celebrate two papers on a new in silico method to screen existing crystal lattices available in the Protein Data Bank, for lattices suitable for carrying out fragment soaking experiments to design chemical inhibitors targeting protein-protein interactions! See this paper in J Med Chem for description and application on two...","categories": [],
+        "tags": [],
+        "url": "/interfacescreen/",
+        "teaser": "/assets/images/interface_crystal_screen.png"
+      },{
+        "title": "scRNAseq analysis of peripheral B cell populations",
+        "excerpt":"Our collaboration with the Dunn-Walters group at University of Surrey has reached a new milestone with our new work on Frontiers in Immunology! This is our first venture into single-cell RNA sequencing to describe transcriptomic features of different B cell populations. We applied RNA velocity estimation and analysed the transitions...","categories": [],
+        "tags": [],
+        "url": "/pure-published/",
+        "teaser": "/assets/images/pure1.jpg"
+      },{
+        "title": "ZoomVar variant database published in PLoS Biology",
+        "excerpt":"   We are delighted that the ZoomVar database is published in the journal PLoS Biology! Hopefully this tool will be of use to many in annotating protein-level information for missense variants! Congratulation to Anna who began the project and Joseph who pushed this to publication!   ","categories": [],
+        "tags": [],
+        "url": "/zoomvar-published/",
+        "teaser": "/assets/images/slider/zoomvar.png"
+      },{
+        "title": "Antimcrobial nanocapsule design and dynamics published in the Nanoscale journal",
+        "excerpt":"   Irene and Carlos’ work on designing and simulating the molecular dynamics of antimicrobial capsules has been published in the journal Nanoscale! Great milestone for all the time and effort put into this project!   ","categories": [],
+        "tags": [],
+        "url": "/irene-nanoscale/",
+        "teaser": "/assets/images/slider/Irene-Naonoscale-capsule.png"
       }]
