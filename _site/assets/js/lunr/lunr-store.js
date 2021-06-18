@@ -117,5 +117,5 @@ var store = [{
         "excerpt":"   Irene and Carlos’ work on designing and simulating the molecular dynamics of antimicrobial capsules has been published in the journal Nanoscale! Great milestone for all the time and effort put into this project!   ","categories": [],
         "tags": [],
         "url": "/irene-nanoscale/",
-        "teaser": "/assets/images/slider/Irene-Naonoscale-capsule.png"
+        "teaser": "/assets/images/slider/Irene_Nanoscale_capsule.png"
       }]
