@@ -4,7 +4,7 @@ Uses [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistake
 
 Developed by Joseph Ng, Jan/Feb 2021
 
-Website accessible by <https://Fraternalilab.github.io> . Redirection from KCL website to be set up in due course.
+Website accessible by <https://Fraternalilab.github.io> . Redirection from KCL website <http://fraternalilab.kcl.ac.uk>. This replace the old group website hosted in KCL servers.
 
 ## Update content online
 
