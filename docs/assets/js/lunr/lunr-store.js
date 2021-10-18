@@ -118,4 +118,10 @@ var store = [{
         "tags": [],
         "url": "/irene-nanoscale/",
         "teaser": "/assets/images/slider/Irene_Nanoscale_capsule.png"
+      },{
+        "title": "Nanocapsule work received NPL Rayleigh Award",
+        "excerpt":"   Irene’s paper on simulating an antimicrobial nanocapsule on lipid membranes has been awarded the Rayleigh award from the National Physical Laboratory!   Read the story on King’s website. The paper was published on ACS Nano.   ","categories": [],
+        "tags": [],
+        "url": "/rayleigh-award/",
+        "teaser": "/assets/images/peptide-nanoparticles.png"
       }]
