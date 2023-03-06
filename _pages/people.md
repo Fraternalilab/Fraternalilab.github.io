@@ -38,10 +38,11 @@ feature_row:
     title: "Shohei Yoshida"
     url: /people/shohei-yoshida
     excerpt: "PhD Student"
-  - image_path: /assets/images/people/sofia_fredin.jpg
-    title: "Sofia Fredin"
-    url: /people/sofia-fredin
-    excerpt: "Erasmus Student"
+  - image_path: /assets/images/people/Caroline_Babisz.jpg
+    title: "Caroline Babisz"
+    url: /people/caroline-babisz
+    excerpt: "PhD Student"
+
 ---
 
 ![image-center](/assets/images/FFgroup_picture_Jan2021.png ){: .align-center}
@@ -49,14 +50,6 @@ feature_row:
 *FF group working from home (the sea?), January 2021*
 
 {% include feature_row %}
-
-**Current project students:**
-
-* Luke Marques (MSci Chemistry)
-* Nathan Peeler (MSci Chemistry)
-* Marija Dimitrievska (BSc Molecular Genetics)
-* Emily (Man-I) Che (BSc Biochemistry)
-* Sofia Fredin (Erasmus Student)
 
 **Alumni**:
 
@@ -75,3 +68,4 @@ feature_row:
 * Irene Marzuoli
 * Emmanouela Petsolari
 * Enrico Spiga
+* Sofia Fredin
