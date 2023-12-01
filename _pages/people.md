@@ -45,9 +45,9 @@ feature_row:
 
 ---
 
-![image-center](/assets/images/FFgroup_picture_Jan2021.png ){: .align-center}
+![image-center](/assets/images/FFgroup_picture_Oct2023.png ){: .align-center}
 
-*FF group working from home (the sea?), January 2021*
+*FF group @ UCL Darwin Building, October 2023*
 
 {% include feature_row %}
 

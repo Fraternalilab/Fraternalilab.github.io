@@ -31,11 +31,11 @@ Lipid parameters for Molecular Dynamics simulations of biomembrane have been upd
 
 Cite: Margreitter C, Lu HC, Townsend C, Stewart A, Dunn-Walters DK, Fraternali F **BRepertoire: a user-friendly web server for analysing antibody repertoire data**, *Nucleic Acids Research*, gky276, <https://doi.org/10.1093/nar/gky276>
 
-**[TITINdb](http://fraternalilab.kcl.ac.uk/TITINdb/)**
+**[TITINdb](https://titindb.kcl.ac.uk/)**
 
-[![image-center](/assets/images/TITINdb_logo.jpg ){: .align-center}](http://fraternalilab.kcl.ac.uk/TITINdb/)
+[![image-center](/assets/images/TITINdb_logo.jpg ){: .align-center}](https://titindb.kcl.ac.uk/)
 
-[TITINdb](http://fraternalilab.kcl.ac.uk/TITINdb/) is a web application which integrates titin structure, sequence, isoform, variant and disease information. Disease-associated nonsynonymous SNPs (nsSNPs) from the literature and population nsSNPs from the 1000 genomes project and ExAC database to be visualised on structure. Additionally the impact of these nsSNPs has been predicted computationally using both structure and sequence based methods.
+[TITINdb](https://titindb.kcl.ac.uk/) is a web application which integrates titin structure, sequence, isoform, variant and disease information. Disease-associated nonsynonymous SNPs (nsSNPs) from the literature and population nsSNPs from the 1000 genomes project and ExAC database to be visualised on structure. Additionally the impact of these nsSNPs has been predicted computationally using both structure and sequence based methods.
 
 Cite: Laddach A, Gautel M, Fraternali F **TITINdb: a Computational Tool to Assess Titin's Role as a Disease Gene.** *Bioinformatics* 2017 btx424. doi: 10.1093/bioinformatics/btx424, PMID: [29077808](http://www.ncbi.nlm.nih.gov/pubmed/29077808
 
