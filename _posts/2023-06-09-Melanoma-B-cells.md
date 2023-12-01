@@ -13,10 +13,10 @@ defaults:
       related: true
 title: "Studies of B cells in melanoma published in Nature Communications"
 header:
-  teaser: /assets/images/skin-cancer-cells.jpg 
+  teaser: /assets/images/skin-cancer-cells.png 
 ---
 
-![image-center](/assets/images/skin-cancer-cells.jpg){: .align-center}
+![image-center](/assets/images/skin-cancer-cells.png){: .align-center}
 
 Our collaboration to study B-cells in melanoma, with the group of Sophia Karagiannis at King's, has just been published in Nature Communications! Here, we collaborated with the Karagiannis to analyse antibody repertoire from B cells infiltrated in melanoma tissues. We described features in these repertoires and drew parallel with autoimmunity.
 

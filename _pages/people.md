@@ -45,7 +45,7 @@ feature_row:
 
 ---
 
-![image-center](/assets/images/FFgroup_picture_Oct2023.png ){: .align-center}
+![image-center](/assets/images/FFgroup_picture_Oct2023.jpg ){: .align-center}
 
 *FF group @ UCL Darwin Building, October 2023*
 

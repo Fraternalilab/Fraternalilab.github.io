@@ -129,7 +129,7 @@ var store = [{
         "excerpt":"Our collaboration to study B-cells in melanoma, with the group of Sophia Karagiannis at King’s, has just been published in Nature Communications! Here, we collaborated with the Karagiannis to analyse antibody repertoire from B cells infiltrated in melanoma tissues. We described features in these repertoires and drew parallel with autoimmunity....","categories": [],
         "tags": [],
         "url": "/Melanoma-B-cells/",
-        "teaser": "/assets/images/skin-cancer-cells.jpg"
+        "teaser": "/assets/images/skin-cancer-cells.png"
       },{
         "title": "sciCSR method published in Nature Methods",
         "excerpt":"   Joseph’s paper on the new computational method, sciCSR, for analysing class-switch recombination (CSR) in B cells single-cell RNA sequencing data, has been published in Nature Methods!   Read the paper on Nature Methods. We have also written a behind-the-paper Research Briefing article which can be found here.   ","categories": [],
