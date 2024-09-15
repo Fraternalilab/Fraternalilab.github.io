@@ -22,10 +22,10 @@ feature_row:
     title: "Timir Weston"
     url: /people/timir-weston
     excerpt: "PhD Student"
-  - image_path: /assets/images/people/neba.jpg
-    title: "Neba Nebangwa Derrick"
-    url: /people/neba-derrick
-    excerpt: "PhD Student"
+#  - image_path: /assets/images/people/neba.jpg
+#    title: "Neba Nebangwa Derrick"
+#    url: /people/neba-derrick
+#    excerpt: "PhD Student"
   - image_path: /assets/images/people/dongjun.jpg
     title: "Dongjun Guo"
     url: /people/dongjun-guo
@@ -42,6 +42,9 @@ feature_row:
     title: "Caroline Babisz"
     url: /people/caroline-babisz
     excerpt: "PhD Student"
+  - image:path: /assets/images/people/lutecia_kcl.jpg
+    title: "Lutecia Servius"
+    url: /people/lutecia-servius
 
 ---
 
