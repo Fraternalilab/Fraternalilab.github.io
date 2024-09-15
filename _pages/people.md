@@ -42,7 +42,7 @@ feature_row:
     title: "Caroline Babisz"
     url: /people/caroline-babisz
     excerpt: "PhD Student"
-  - image:path: /assets/images/people/lutecia_kcl.jpg
+  - image_path: /assets/images/people/lutecia_kcl.jpg
     title: "Lutecia Servius"
     url: /people/lutecia-servius
 
