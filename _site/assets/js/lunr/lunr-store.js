@@ -125,15 +125,105 @@ var store = [{
         "url": "/rayleigh-award/",
         "teaser": "/assets/images/peptide-nanoparticles.png"
       },{
+        "title": "Allosteric regulation of soluble epoxide hydrolase published in Journal of Molecular Biology",
+        "excerpt":"In a collaboration between the Fraternali lab and the Conte lab at the Randall Centre at King’s College London, we studied the allosteric regulation of soluble epoxide hydrolase (sEH), a key enzyme involved in epoxy fatty acid metabolism relevant in a range of cardiovascular and central nervous systems disorder. This...","categories": [],
+        "tags": [],
+        "url": "/nitro-fatty-acids-paper/",
+        "teaser": "/assets/images/nitro-fatty-acids-paper.png"
+      },{
+        "title": "B cell repertoire viral response study published in Frontiers in Immunology",
+        "excerpt":"As part of the BBSRC-funded project we have analysed B cell repertoires from infections with SARS-CoV-2, Ebola, and RSV, and reported distinct and unique antiviral antibody responses across pandemic, epidemic, and endemic viruses. We focused specifically on clonal expansions, gene usage, somatic hypermutation and class-switch recombination patterns across these different...","categories": [],
+        "tags": [],
+        "url": "/bcell-viral-response-paper/",
+        "teaser": "/assets/images/bcell-viral-response-paper.png"
+      },{
+        "title": "HOIP RBR E3 ligase dynamics study published in Scientific Reports",
+        "excerpt":"   The main paper from Marius Kausas’ PhD project has been published! This study characterises the conformational dynamics of HOIP RBR E3 ligase using integrative modelling, providing new structural insights into ubiquitination machinery.   Read the paper on Scientific Reports.  ","categories": [],
+        "tags": [],
+        "url": "/hoip-rbr-paper/",
+        "teaser": "/assets/images/hoip-rbr-paper.png"
+      },{
         "title": "Studies of B cells in melanoma published in Nature Communications",
         "excerpt":"Our collaboration to study B-cells in melanoma, with the group of Sophia Karagiannis at King’s, has just been published in Nature Communications! Here, we collaborated with the Karagiannis to analyse antibody repertoire from B cells infiltrated in melanoma tissues. We described features in these repertoires and drew parallel with autoimmunity....","categories": [],
         "tags": [],
         "url": "/Melanoma-B-cells/",
         "teaser": "/assets/images/skin-cancer-cells.png"
       },{
+        "title": "IL36RN alterations study published in Journal of Investigative Dermatology",
+        "excerpt":"A joint project with Francesca Capon’s lab at King’s College London, we conducted in silico and in vitro analysis, this study identifies critical residues in IL36RN essential for the function of the interleukin-36 receptor complex, providing insights into inflammatory skin diseases. Very happy to have contributed our structural bioinformatics expertise...","categories": [],
+        "tags": [],
+        "url": "/il36rn-paper/",
+        "teaser": "/assets/images/il36rn-paper.png"
+      },{
         "title": "sciCSR method published in Nature Methods",
         "excerpt":"   Joseph’s paper on the new computational method, sciCSR, for analysing class-switch recombination (CSR) in B cells single-cell RNA sequencing data, has been published in Nature Methods!   Read the paper on Nature Methods. We have also written a behind-the-paper Research Briefing article which can be found here.   ","categories": [],
         "tags": [],
         "url": "/sciCSR-paper/",
         "teaser": "/assets/images/sciCSR-paper-website.jpg"
+      },{
+        "title": "Review on antibody structure modelling published in Current Opinion in Structural Biology",
+        "excerpt":"   We have written a new review on recent advances in modelling the assembly and flexibility of antibody structures, highlighting computational and experimental strategies to better understand their dynamics and function. Featuring insights especially from Dongjun, Maria Laura and Joseph!   Read the paper on Current Opinion in Structural Biology.  ","categories": [],
+        "tags": [],
+        "url": "/antibody-flexibility-paper/",
+        "teaser": "/assets/images/antibody-flexibility-paper.png"
+      },{
+        "title": "Thioredoxin study published in Nature Immunology",
+        "excerpt":"As joint work with Claudia Mauri’s group at UCL, we contributed our computational expertise to analyse scRNA-seq analysis of regulatory B cell cultures. Our study identified thioredoxin as a metabolic rheostat controlling regulatory B cells. This work sheds light on the metabolic control of immune regulation and has potential therapeutic...","categories": [],
+        "tags": [],
+        "url": "/thioredoxin-paper/",
+        "teaser": "/assets/images/thioredoxin-paper.png"
+      },{
+        "title": "Statistical models to predict B cells CSR published in Biometrical Journal",
+        "excerpt":"First paper from PhD student Lutecia Servius! In this work we compared and evaluated different statistical models in the prediction of Class-Switch Recombination in B cells directly from antibody repertoire data. We found that a dedicated data preprocessing approach collapsing into clonal groups is essential in this problem, and identified...","categories": [],
+        "tags": [],
+        "url": "/predicting-csr-paper/",
+        "teaser": "/assets/images/predicting-csr-paper.png"
+      },{
+        "title": "VCAb published in Bioinformatics Advances",
+        "excerpt":"   Work from PhD student Dongjun! VCAb is a new web tool for structure-guided exploration of antibodies. It integrates sequence, structural, and functional information, enabling scientists to visualise and analyse antibody features in detail.   Read the paper on Bioinformatics Advances.  ","categories": [],
+        "tags": [],
+        "url": "/vcab-paper/",
+        "teaser": "/assets/images/vcab-paper.png"
+      },{
+        "title": "AllohubPy published in Journal of Molecular Biology",
+        "excerpt":"Work led by Oriol! We have revamped our allostery analysis tool into a new version named AllohubPy, introduces an information-theoretic approach analysing molecular dynamics simulations, for detecting allosteric signals in proteins. This method provides a powerful framework for understanding communication pathways in biomolecules, with potential applications in drug discovery. Read...","categories": [],
+        "tags": [],
+        "url": "/allohubpy-paper/",
+        "teaser": "/assets/images/allohubpy-paper.png"
+      },{
+        "title": "ImmunoMatch learns antibody chain pairing",
+        "excerpt":"ImmunoMatch is an machine learning framework built atop antibody‑specific language models to predict cognate heavy–light (H–L) chain pairs from single B‑cell data. We used this to study how chain pairing propensities change with B cell maturation, and explored the utility of ImmunoMatch in therapeutic antibody design. Fantastic work led by...","categories": [],
+        "tags": [],
+        "url": "/immunomatch-tool/",
+        "teaser": "/assets/images/immunomatch-tool.png"
+      },{
+        "title": "IndeLLM enables rapid indel pathogenicity predictions",
+        "excerpt":"   Work jointly led by Oriol and Vilde in the lab, IndeLLM is a novel, plug‑and‑play tool using protein language models for predicting the pathogenicity of in‑frame insertions and deletions (indels). Without requiring fine‑tuning, it outperforms existing methods. Check out our user‑friendly Google Colab notebook!   Read the preprint on bioRxiv.  ","categories": [],
+        "tags": [],
+        "url": "/indellm-tool/",
+        "teaser": "/assets/images/indellm-tool.png"
+      },{
+        "title": "TITINdb2 published in Bioinformatics Advances",
+        "excerpt":"   A major update to the TITINdb platform, TITINdb2 expands annotation and structural information for protein variants in the giant sarcomeric protein titin. This resource will support researchers investigating muscle function, cardiomyopathies, and variant effects. Main paper of PhD student Timir Weston!   Read the paper on Bioinformatics Advances.  ","categories": [],
+        "tags": [],
+        "url": "/titindb2-paper/",
+        "teaser": "/assets/images/titindb2-paper.png"
+      },{
+        "title": "Novel antibody class switching patterns in a primary immune response",
+        "excerpt":"Part of the BBSRC-funded Mapping antibody class switch mechanism and function (MACSMAF) consortium that we lead, together with the labs of Deborah Dunn-Walters (Surrey) and Claudia Mauri (UCL) we generated a multi-omic, longitudinal dataset of B cell in a primary immune response. Our analysis reveals that upon activation, B cells...","categories": [],
+        "tags": [],
+        "url": "/class-switching-vaccine/",
+        "teaser": "/assets/images/class-switching-vaccine.png"
+      },{
+        "title": "scRNA-seq analysis framework to study B cells in renal cancers",
+        "excerpt":"First preprint with us from PhD student Izzy Withnell! In this collaboration with Claudia Mauri’s lab at UCL, we devised a novel analytic framework to analyse scRNA-seq data of B cells in cancer, to identify cancer-specific and common B cell states from diverse datasets. We then focused on a renal...","categories": [],
+        "tags": [],
+        "url": "/dn1-bregs-rrc/",
+        "teaser": "/assets/images/dn1-bregs-rrc.png"
+      },{
+        "title": "Framework mutations study published in mAbs",
+        "excerpt":"Very fruitful collaboration with the lab of Sophia Karagiannis at King’s College London! We present here a computational–experimental workflow to rationally design framework (FW) mutations in antibodies. Using trastuzumab as an test case, we identified and validated mutations outside the complementarity-determining regions (CDRs) that improved stability while preserving antigen binding....","categories": [],
+        "tags": [],
+        "url": "/framework-mutations-antibody/",
+        "teaser": "/assets/images/framework-mutations-antibody.png"
       }]
