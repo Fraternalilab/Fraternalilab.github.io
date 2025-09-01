@@ -18,18 +18,22 @@ feature_row:
     title: "Joseph Ng"
     url: /people/joseph-ng
     excerpt: "Post-Doc"
-  - image_path: /assets/images/people/timir_weston-640x640.jpg
-    title: "Timir Weston"
-    url: /people/timir-weston
-    excerpt: "PhD Student"
+#  - image_path: /assets/images/people/timir_weston-640x640.jpg
+#    title: "Timir Weston"
+#    url: /people/timir-weston
+#    excerpt: "PhD Student"
 #  - image_path: /assets/images/people/neba.jpg
 #    title: "Neba Nebangwa Derrick"
 #    url: /people/neba-derrick
 #    excerpt: "PhD Student"
-  - image_path: /assets/images/people/dongjun.jpg
+  - image_path: /assets/images/people/DongjunGuo_Bio_photo.jpg
     title: "Dongjun Guo"
     url: /people/dongjun-guo
-    excerpt: "PhD Student"
+    excerpt: "Post-Doc"
+  - image_path: /assets/images/people/oriol_profile.jpg
+    title: "Oriol Gracia Carmona"
+    url: /people/oriol-gracia-carmona
+    excerpt: "Post-Doc"
   - image_path: /assets/images/people/julian_photo_group_website.png
     title: "Julian Herrera Braga"
     url: /people/julian-herrera-braga
@@ -38,13 +42,22 @@ feature_row:
     title: "Shohei Yoshida"
     url: /people/shohei-yoshida
     excerpt: "PhD Student"
-  - image_path: /assets/images/people/Caroline_Babisz.jpg
-    title: "Caroline Babisz"
-    url: /people/caroline-babisz
-    excerpt: "PhD Student"
+#  - image_path: /assets/images/people/Caroline_Babisz.jpg
+#    title: "Caroline Babisz"
+#    url: /people/caroline-babisz
+#    excerpt: "PhD Student"
   - image_path: /assets/images/people/lutecia_kcl.jpg
     title: "Lutecia Servius"
     url: /people/lutecia-servius
+    excerpt: "PhD Student"
+  - image_path: /assets/images/people/isabella_withnell.jpg
+    title: "Isabella Withnell"
+    url: /people/isabella-withnell
+    excerpt: "PhD Student"
+  - image_path: /assets/images/people/jon_ditcham.jpg
+    title: "Jonathan Ditcham"
+    url: /people/jonathan-ditcham
+    excerpt: "PhD Student"
 
 ---
 
@@ -57,10 +70,12 @@ feature_row:
 **Alumni**:
 
 * Flavia Autore
+* [Caroline Babisz](/people/caroline-babisz)
 * Rasha Boulos
 * Sun Sook Chung
 * Francesca Collu
 * Carlos Cruz
+* Sofia Fredin
 * Molly Gravett
 * Marius Kausas
 * Annika Keshu
@@ -71,4 +86,4 @@ feature_row:
 * Irene Marzuoli
 * Emmanouela Petsolari
 * Enrico Spiga
-* Sofia Fredin
+* [Timir Weston](/people/timir-weston)
