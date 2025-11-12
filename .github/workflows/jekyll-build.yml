@@ -1,0 +1,82 @@
+name: Build and Deploy Jekyll site
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Determine container jekyll user UID/GID
+        id: container_user
+        run: |
+          # print the uid:gid that the default container jekyll user uses
+          CON_UID=$(docker run --rm jekyll/jekyll:3.8 id -u jekyll 2>/dev/null || docker run --rm jekyll/jekyll:3.8 id -u 2>/dev/null || echo 1000)
+          CON_GID=$(docker run --rm jekyll/jekyll:3.8 id -g jekyll 2>/dev/null || docker run --rm jekyll/jekyll:3.8 id -g 2>/dev/null || echo 1000)
+          echo "uid=$CON_UID" >> $GITHUB_OUTPUT
+          echo "gid=$CON_GID" >> $GITHUB_OUTPUT
+          echo "Detected container uid/gid: $CON_UID:$CON_GID"
+
+      - name: Prepare host cache and set ownership to container user
+        run: |
+          mkdir -p .jekyll-cache _site docs
+          echo "chowning .jekyll-cache, _site and docs to ${{ steps.container_user.outputs.uid }}:${{ steps.container_user.outputs.gid }}"
+          # chown may require sudo; Actions runner allows sudo
+          sudo chown -R ${{ steps.container_user.outputs.uid }}:${{ steps.container_user.outputs.gid }} .jekyll-cache _site docs || true
+          ls -lad .jekyll-cache _site docs
+          stat -c "%%n uid=%%u gid=%%g mode=%%a" .jekyll-cache _site docs
+          
+      - name: Build site with Jekyll Docker container
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}:/usr/src/app \
+            -e JEKYLL_ENV=production \
+            jekyll/jekyll:3.8 \
+            jekyll build --trace --destination docs
+
+      - name: Upload built docs folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-docs
+          path: docs
+
+  commit:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Download built docs folder
+        uses: actions/download-artifact@v4
+        with:
+          name: built-docs
+          path: docs
+
+      - name: Commit and push updated docs/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add docs
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-build site into docs [skip ci]"
+            git push
+          fi
