@@ -30,6 +30,10 @@ feature_row:
     title: "Dongjun Guo"
     url: /people/dongjun-guo
     excerpt: "Post-Doc"
+  - image_path: /assets/images/people/carlos_cruz.jpg
+    title: "Carlos Cruz"
+    url: /people/carlos-cruz
+    excerpt: "Post-Doc"
   - image_path: /assets/images/people/oriol_profile.jpg
     title: "Oriol Gracia Carmona"
     url: /people/oriol-gracia-carmona
